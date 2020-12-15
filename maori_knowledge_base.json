@@ -1,0 +1,484 @@
+{
+    "maori_word": [
+        {
+            "id": 0,
+            "name": "aotearoa",
+            "english": "New Zealand",
+            "definition": "Aotearoa literally means 'long white cloud,' and was originally used to refer only to North Island, but now to all of New Zealand."
+        },
+        {
+            "id": 1,
+            "name": "kiwi",
+            "english": "kiwi",
+            "definition": "kiwi_placeholder"
+        },
+        {
+            "id": 2,
+            "name": "kiwis",
+            "english": "kiwis",
+            "definition": "kiwis_placeholder"
+        },
+        {
+            "id": 3,
+            "name": "maori",
+            "english": "maori",
+            "definition": "maori_placeholder"
+        },
+        {
+            "id": 4,
+            "name": "non-maori",
+            "english": "non-maori",
+            "definition": "nonmaori_placeholder"
+        },
+        {
+            "id": 5,
+            "name": "pakeha",
+            "english": "foreigner",
+            "definition": "pakeha_placeholder"
+        },
+        {
+            "id": 6,
+            "name": "haurangi",
+            "english": "drunk",
+            "definition": "haurangi_placeholder"
+        },
+        {
+            "id": 7,
+            "name": "porangi",
+            "english": "insane",
+            "definition": "porangi_placeholder"
+        },
+        {
+            "id": 8,
+            "name": "haere mai",
+            "english": "welcome",
+            "definition": "haeremai_placeholder"
+        },
+        {
+            "id": 9,
+            "name": "kia ora",
+            "english": "hi",
+            "definition": "kiaora_placeholder"
+        },
+        {
+            "id": 10,
+            "name": "haka",
+            "english": "dance",
+            "definition": "haka_placeholder"
+        },
+        {
+            "id": 11,
+            "name": "kapa haka",
+            "english": "haka group",
+            "definition": "kapahaka_placeholder"
+        },
+        {
+            "id": 12,
+            "name": "tena koutou",
+            "english": "hello (to three or more)",
+            "definition": "tenakoutou_placeholder"
+        },
+        {
+            "id": 13,
+            "name": "whakapapa",
+            "english": "genealogy",
+            "definition": "a genealogy of a person's Māori identity, it lists the name and mana of all living natural things that led to the creation of oneself"
+        },
+        {
+            "id": 14,
+            "name": "kia kaha",
+            "english": "go for it",
+            "definition": "kiakaha_placeholder"
+        },
+        {
+            "id": 15,
+            "name": "kowhai",
+            "english": "yellow",
+            "definition": "kowhai_placeholder"
+        },
+        {
+            "id": 16,
+            "name": "whanau",
+            "english": "family",
+            "definition": "whanau_placeholder"
+        },
+        {
+            "id": 17,
+            "name": "matariki",
+            "english": "celebrity",
+            "definition": "matariki_placeholder"
+        },
+        {
+            "id": 18,
+            "name": "hangi",
+            "english": "an earth oven/the food cooked in it",
+            "definition": "hangi_placeholder"
+        },
+        {
+            "id": 19,
+            "name": "iwi",
+            "english": "people, nation, confederation of tribes",
+            "definition": "iwi_placeholder"
+        },
+        {
+            "id": 20,
+            "name": "marae",
+            "english": "courtyard",
+            "definition": "a communal or sacred clearing that now serves as a cultural center for Māori communities"
+        },
+        {
+            "id": 21,
+            "name": "pounamu",
+            "english": "jade",
+            "definition": "pounamu_placeholder"
+        },
+        {
+            "id": 22,
+            "name": "te reo",
+            "english": "language",
+            "definition": "tereo_placeholder"
+        },
+        {
+            "id": 23,
+            "name": "wahine",
+            "english": "woman",
+            "definition": "wahine_placeholder"
+        },
+        {
+            "id": 24,
+            "name": "tamariki",
+            "english": "children",
+            "definition": "tamariki_placeholder"
+        },
+        {
+            "id": 25,
+            "name": "kaimoana",
+            "english": "seafood",
+            "definition": "kaimoana_placeholder"
+        },
+        {
+            "id": 26,
+            "name": "whare",
+            "english": "house",
+            "definition": "whare_placeholder"
+        },
+        {
+            "id": 27,
+            "name": "tena koe",
+            "english": "hello (to one person)",
+            "definition": "tenakoe_placeholder"
+        },
+        {
+            "id": 28,
+            "name": "whenua",
+            "english": "land",
+            "definition": "whenua_placeholder"
+        },
+        {
+            "id": 29,
+            "name": "korero",
+            "english": "speak",
+            "definition": "korero_placeholder"
+        },
+        {
+            "id": 30,
+            "name": "powhiri",
+            "english": "welcome",
+            "definition": "a welcome ceremony involving speeches, dancing, singing, a feast, and is used to welcome guests to a marae or for other ceremonies."
+        },
+        {
+            "id": 31,
+            "name": "taniwha",
+            "english": "monster",
+            "definition": "taniwha_placeholder"
+        },
+        {
+            "id": 32,
+            "name": "hongi",
+            "english": "nose press as a greeting",
+            "definition": "hongi_placeholder"
+        },
+        {
+            "id": 33,
+            "name": "morena",
+            "english": "good morning",
+            "definition": "morena_placeholder"
+        },
+        {
+            "id": 34,
+            "name": "tangata whenua",
+            "english": "people of the land",
+            "definition": "person of the land, which can be extended from the owners of a marae all the way up to all Māori people"
+        },
+        {
+            "id": 35,
+            "name": "kakariki",
+            "english": "green",
+            "definition": "kakariki_placeholder"
+        },
+        {
+            "id": 36,
+            "name": "puku",
+            "english": "secretly or very",
+            "definition": "puku_placeholder"
+        },
+        {
+            "id": 37,
+            "name": "karakia",
+            "english": "prayer or chant",
+            "definition": "karakia_placeholder"
+        },
+        {
+            "id": 38,
+            "name": "kohanga",
+            "english": "nest or nursery",
+            "definition": "kohanga_placeholder"
+        },
+        {
+            "id": 39,
+            "name": "kahurangi",
+            "english": "blue",
+            "definition": "kahurangi_placeholder"
+        },
+        {
+            "id": 40,
+            "name": "hapu",
+            "english": "sub-tribe or clan",
+            "definition": "hapu_placeholder"
+        },
+        {
+            "id": 41,
+            "name": "tangata",
+            "english": "people",
+            "definition": "tangata_placeholder"
+        },
+        {
+            "id": 42,
+            "name": "waiata",
+            "english": "song",
+            "definition": "waiata_placeholder"
+        },
+        {
+            "id": 43,
+            "name": "taonga",
+            "english": "treasured possession or property",
+            "definition": "taonga_placeholder"
+        },
+        {
+            "id": 44,
+            "name": "rangatiratanga",
+            "english": "chieftanship",
+            "definition": "rangatiratanga_placeholder"
+        },
+        {
+            "id": 45,
+            "name": "tangi",
+            "english": "mourn or cry",
+            "definition": "tangi_placeholder"
+        },
+        {
+            "id": 46,
+            "name": "kaumatua",
+            "english": "elder",
+            "definition": "a tribal elder of a Māori community. They are tasked with maintaining the mana of the community and ensuring the continuity of the culture."
+        },
+        {
+            "id": 47,
+            "name": "kaupapa",
+            "english": "principle",
+            "definition": "kaupapa_placeholder"
+        },
+        {
+            "id": 48,
+            "name": "rangatira",
+            "english": "chieftain",
+            "definition": "rangatira_placeholder"
+        },
+        {
+            "id": 49,
+            "name": "tikanga",
+            "english": "correct custom and habit",
+            "definition": "tikanga_placeholder"
+        },
+        {
+            "id": 50,
+            "name": "whero",
+            "english": "red",
+            "definition": "whero_placeholder"
+        },
+        {
+            "id": 51,
+            "name": "mokopuna",
+            "english": "grandchild or descendant",
+            "definition": "mokopuna_placeholder"
+        },
+        {
+            "id": 52,
+            "name": "kainga",
+            "english": "Māori village",
+            "definition": "kainga_placeholder"
+        },
+        {
+            "id": 53,
+            "name": "maunga",
+            "english": "mountain",
+            "definition": "maunga_placeholder"
+        },
+        {
+            "id": 54,
+            "name": "whakarongo",
+            "english": "listen",
+            "definition": "whakarongo_placeholder"
+        },
+        {
+            "id": 55,
+            "name": "wahi tapu",
+            "english": "sacred place",
+            "definition": "wahitapu_placeholder"
+        },
+        {
+            "id": 56,
+            "name": "wananga",
+            "english": "Māori cultural school",
+            "definition": "wananga_placeholder"
+        },
+        {
+            "id": 57,
+            "name": "kaitiaki",
+            "english": "trustee",
+            "definition": "kaitiaki_placeholder"
+        },
+        {
+            "id": 58,
+            "name": "hikoi",
+            "english": "walk",
+            "definition": "hikoi_placeholder"
+        },
+        {
+            "id": 59,
+            "name": "papatuanuku",
+            "english": "Earth Mother",
+            "definition": "papatuanuku_placeholder"
+        },
+        {
+            "id": 60,
+            "name": "katoa",
+            "english": "all",
+            "definition": "katoa_placeholder"
+        },
+        {
+            "id": 61,
+            "name": "atua",
+            "english": "God",
+            "definition": "atua_placeholder"
+        },
+        {
+            "id": 62,
+            "name": "tupuna",
+            "english": "ancestors",
+            "definition": "tupuna_placeholder"
+        },
+        {
+            "id": 63,
+            "name": "whangai",
+            "english": "feed, raise, or foster",
+            "definition": "whangai_placeholder"
+        },
+        {
+            "id": 64,
+            "name": "kuia",
+            "english": "female elder or grandmother",
+            "definition": "kuia_placeholder"
+        },
+        {
+            "id": 65,
+            "name": "korowai",
+            "english": "traditional Māori cloak",
+            "definition": "korowai_placeholder"
+        },
+        {
+            "id": 66,
+            "name": "taiaha",
+            "english": "traditional wood or whalebone weapon",
+            "definition": "taiaha_placeholder"
+        },
+        {
+            "id": 67,
+            "name": "mawhero",
+            "english": "pink",
+            "definition": "mawhero_placeholder"
+        },
+        {
+            "id": 68,
+            "name": "tohunga",
+            "english": "expert",
+            "definition": "tohunga_placeholder"
+        },
+        {
+            "id": 69,
+            "name": "waewae",
+            "english": "leg",
+            "definition": "waewae_placeholder"
+        },
+        {
+            "id": 70,
+            "name": "whaea",
+            "english": "mother or aunty",
+            "definition": "whaea_placeholder"
+        },
+        {
+            "id": 71,
+            "name": "teina",
+            "english": "younger sibling or cousin of the same gender",
+            "definition": "teina_placeholder"
+        },
+        {
+            "id": 72,
+            "name": "hoha",
+            "english": "boring",
+            "definition": "hoha_placeholder"
+        },
+        {
+            "id": 73,
+            "name": "tuakana",
+            "english": "elder sibling or cousin of the same gender",
+            "definition": "tuakana_placeholder"
+        },
+        {
+            "id": 74,
+            "name": "manuhiri",
+            "english": "guest",
+            "definition": "a general term for guest, but it can also generally refer to non-Māori on some occasions."
+        },
+        {
+            "id": 75,
+            "name": "kawanatanga",
+            "english": "government",
+            "definition": "kawanatanga_placeholder"
+        },
+        {
+            "id": 76,
+            "name": "taihoa",
+            "english": "later",
+            "definition": "taihoa_placeholder"
+        },
+        {
+            "id": 77,
+            "name": "kai",
+            "english": "food",
+            "definition": "kai_placeholder"
+        },
+        {
+            "id": 78,
+            "name": "wharenui",
+            "english": "communal house",
+            "definition": "wharenui_placeholder"
+        },
+        {
+            "id": 79,
+            "name": "manaakitanga",
+            "english": "hospitality",
+            "definition": "the process of showing respect, generosity, and care for others, especially guests"
+        }
+    ]
+}

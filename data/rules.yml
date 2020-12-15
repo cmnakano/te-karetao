@@ -1,0 +1,62 @@
+version: "2.0"
+
+rules:
+
+- rule: Say 'kia ora' whenever the user sends a message with intent 'greet'
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Query the knowledge base whenever the user asks for an English translation or definition
+  steps:
+  - intent: query_knowledge_base
+  - action: action_query_knowledge_base
+  
+- rule: move from 'how are you' to introducing 'marae'
+  steps:
+  - intent: how_is_bot
+  - action: utter_respond_well_marae
+
+- rule: move from marae to powhiri
+  steps:
+  - intent: what_is_marae
+  - action: utter_explain_powhiri
+
+- rule: move from powhiri to manuhiri
+  steps:
+  - intent: what_is_powhiri
+  - action: utter_explain_manuhiri
+
+- rule: move from manuhiri to whakapapa
+  steps:
+  - intent: what_is_manuhiri
+  - action: utter_explain_whakapapa
+
+- rule: move from whakapapa to kaumatua
+  steps:
+  - intent: what_is_whakapapa
+  - action: utter_explain_kaumatua
+
+- rule: move from kaumatua to iwi
+  steps:
+  - intent: what_is_kaumatua
+  - action: utter_explain_iwi
+
+- rule: move from iwi to tangata whenua
+  steps:
+  - intent: what_is_iwi
+  - action: utter_explain_tangata_whenua
+
+- rule: respond to 'what are you planning on doing tomorrow'
+  steps:
+  - intent: what_doing_tomorrow
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

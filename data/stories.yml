@@ -1,0 +1,58 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: knowledge base happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_knowledge_base
+  - action: action_query_knowledge_base
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: happiest conversation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_is_bot
+  - action: utter_respond_well_marae
+  - intent: what_is_marae
+  - action: utter_explain_powhiri
+  - intent: what_is_powhiri
+  - action: utter_explain_manuhiri
+  - intent: what_is_manuhiri
+  - action: utter_explain_whakapapa
+  - intent: what_is_whakapapa
+  - action: utter_explain_kaumatua
+  - intent: what_is_kaumatua
+  - action: utter_explain_iwi
+  - intent: what_is_iwi
+  - action: utter_explain_tangata_whenua

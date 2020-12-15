@@ -1,0 +1,331 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: how_is_bot
+  examples: |
+    - how are you
+    - how are you?
+    - how was your day?
+    - how are you doing?
+    - how have you been lately?
+    - how are you doing
+- intent: what_is_bot
+  examples: |
+    - what are you?
+    - what kind of bot are you?
+    - what kind of chat bot are you?
+    - what kind of bot am i talking to?
+    - what can i talk to you about?
+- intent: what_is_marae
+  examples: |
+    - so what happens at a marae?
+    - so what did you do at the marae?
+    - what did you do there?
+    - what did you do yesterday at the marae?
+    - what happened at the marae?
+    - what kind of things happened at the marae?
+- intent: what_is_powhiri
+  examples: |
+    - so what happens once you have your powhiri?
+    - so what happens once you have your welcome?
+    - so what happens with the powhiri?
+    - so what happens with the welcome?
+    - so what does the powhiri do?
+    - so what does the welcome do?
+    - so why do you hold a powhiri?
+    - so why do you hold a welcome?
+    - what happens at the powhiri?
+    - what happens at the welcome?
+    - what did you do with the powhiri?
+    - what did you do with the welcome?
+    - what happens with the powhiri?
+    - what happens with the welcome?
+    - what kind of a powhiri do you do?
+    - what kind of a welcome do you do?
+    - how do you do your powhiri?
+    - how do you do your welcome?
+- intent: what_is_manuhiri
+  examples: |
+    - so what do you do once the manuhiri come in?
+    - so what do you do once the guests come in?
+    - so what do you do once the manuhiri are welcomed?
+    - so what do you do once the guests are welcomed?
+    - so what happens once the manuhiri enter?
+    - so what happens once the guests enter?
+    - what happens after the manuhiri come in?
+    - what happens after the guests come in?
+    - after the manuhiri arrive what happens?
+    - after the guests arrive what happens?
+    - after the manuhiri come what happens?
+    - after the guests come what happens?
+- intent: what_is_whakapapa
+  examples: |
+    - who has whakapapa?
+    - who has genealogy?
+    - what do you mean by those with whakapapa?
+    - what do you mean by those with genealogy?
+    - what kind of people have whakapapa?
+    - what kind of people have genealogy?
+    - which people are those with whakapapa
+    - which people are those with genealogy
+    - who are the people with whakapapa?
+    - who are the people with genealogy?
+    - who are the whakapapa having people?
+    - who are the genealogy having people?
+- intent: what_is_kaumatua
+  examples: |
+    - why are the kaumatua important?
+    - why are the elders important?
+    - why is an elder important?
+    - what's so important about the kaumatua?
+    - what's so important about the elders?
+    - what's so important about an elder?
+    - so the kaumatua are very significant?
+    - so the elders are very significant?
+    - so an elder is very significant?
+    - so why do the kaumatua matter?
+    - so why do the elders matter?
+    - so why does an elder matter?
+- intent: what_is_iwi
+  examples: |
+    - so how do iwi, hapu, and whanau fall into the grand scheme of things maori?
+    - how does an iwi fall into the grand scheme of things?
+    - how does a hapu fall into the grand scheme of things maori?
+    - how does a whanau fall into the grand scheme of things?
+    - so why are iwi, hapu, and whanau important too?
+    - why is an iwi important?
+    - why is a hapu important too?
+    - why is a whanau important too?
+    - so why do iwi, hapu, and whanau matter?
+    - so what's the big deal about the iwi, hapu, and whanau?
+    - so what's the big deal about an iwi?
+    - so what's the big deal about a hapu?
+    - so what's the big deal about a whanau?
+- intent: query_knowledge_base
+  examples: |
+    - can you name some [maori words]{"entity": "object_type", "value": "maori_word"} please?
+    - [what]{"entity": "object_type", "value": "maori_word"} is the [maori word]{"entity": "object_type", "value": "maori_word"} for [food]{"entity": "attribute", "value": "english"}
+    - [what]{"entity": "object_type", "value": "maori_word"} does [that](mention) mean in [english](attribute)
+    - [what]{"entity": "object_type", "value": "maori_word"} is the [english](attribute) for [aotearoa](maori_word)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [pakeha](maori_word) mean in [english](attribute)
+    - [what]{"entity": "object_type", "value": "maori_word"} is [english](attribute) equivalent of [haurangi](maori_word)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do I say [porangi](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} is [haere mai](maori_word) in [english](attribute)
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [kia ora](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} is the [english](attribute) for [haka](maori_word)?
+    - [what]{"entity": "object_type", "value": "maori_word"} is the [english](attribute) word for [whakapapa](maori_word)
+    - [how]{"entity": "object_type", "value": "maori_word"} do i say [kia kaha](maori_word) in [english](attribute)
+    - [what]{"entity": "object_type", "value": "maori_word"} is [whanau](maori_word) in [English]{"entity": "attribute", "value": "english"}
+    - [can]{"entity": "object_type", "value": "maori_word"} you tell me how to say [hangi](maori_word) in [English]{"entity": "attribute", "value": "english"}?
+    - [what]{"entity": "object_type", "value": "maori_word"} is [iwi](maori_word) in [English]{"entity": "attribute", "value": "english"}?
+    - [how]("entity": "object_type", "value": "maori_word"} do you say [iwi](maori_word) in [English]{"entity": "attribute", "value": "english"}?
+    - [how]{"entity": "object_type", "value": "maori_word"} do I say [marae](maori_word) in [english](attribute)
+    - [what]{"entity": "object_type", "value": "maori_word"} is the [english](attribute) for [pounamu](maori_word)
+    - [what]{"entity": "object_type", "value": "maori_word"} does [te reo](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [wahine](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [tangata](maori_word) mean in [English]{"entity": "attribute", "value": "english"}?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [kai](maori_word) in [English]{"entity": "attribute", "value": "english"}?
+    - [what]{"entity": "object_type", "value": "maori_word"} is the [English]{"entity": "attribute", "value": "english"} for [whakapapa](maori_word)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [kai](maori_word) [mean]{"entity": "attribute", "value": "english"}?
+    - [can]{"entity": "object_type", "value": "maori_word"} you tell me what [tamariki](maori_word) is in [English]{"entity": "attribute", "value": "english"}?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [manaakitanga](maori_word) mean in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [manuhiri](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [manuhiri](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [tangata whenua](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [tangata whenua](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [kai](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [kai](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [powhiri](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [powhiri](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [whakapapa](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [whakapapa](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [iwi](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [iwi](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [hapu](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [hapu](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [whanau](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [whanau](maori_word) in [english](attribute)?
+    - [what]{"entity": "object_type", "value": "maori_word"} does [kaumatua](maori_word) mean in [english](attribute)?
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [kaumatua](maori_word) in [english](attribute)?
+    - [whats]{"entity": "attribute", "value": "english"} a [marae](maori_word)?
+    - [what's]{"entity": "attribute", "value": "english"} a [marae](maori_word)
+    - [what's](attribute) [marae](maori_word) mean?
+    - can you explain [more]{"entity": "attribute", "value": "definition"} about [hangi](maori_word)?
+    - tell me [more]{"entity": "attribute", "value": "definition"} about [marae](maori_word)?
+    - [define]{"entity": "attribute", "value": "definition"} [kaimoana](maori_word) for me
+    - explain to me [more]{"entity": "attribute", "value": "definition"} about [manaakitanga](maori_word)
+    - [what]{"entity": "object_type", "value": "maori_word"} does [it](mention) mean in [english](attribute)
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [iwi](maori_word) in [english](attribute)
+    - [what]{"entity": "object_type", "value": "maori_word"} is the [english](attribute) for [powhiri](maori_word)
+    - [what]{"entity": "object_type", "value": "maori_word"} does [marae](maori_word) mean in [english](attribute)
+    - list some [maori words]{"entity": "object_type", "value": "maori_word"}
+    - [what]{"entity": "object_type", "value": "maori_word"} does [mokopuna](maori_word) mean in [english](attribute)
+    - [what]{"entity": "object_type", "value": "maori_word"} does [whakapapa](maori_word) mean in [english](attribute)
+    - [how]{"entity": "object_type", "value": "maori_word"} do you say [food](english) in [maori]{"entity": "object_type", "value": "maori_word"}
+    - [how]{"entity": "object_type", "value": "maori_word"} do i say [family](english) in [maori]{"entity": "object_type", "value": "maori_word"}
+- synonym: maori_word
+  examples: |
+    - maori word
+    - maori words
+- synonym: definition
+  examples: |
+    - more
+    - define
+- lookup: maori_word
+  examples: |
+    - Aotearoa
+    - pakeha
+    - haurangi
+    - porangi
+    - haere mai
+    - kia ora
+    - haka
+    - kapa haka
+    - tena koutou
+    - whakapapa
+    - kia kaha
+    - kowhai
+    - whanau
+    - matariki
+    - hangi
+    - iwi
+    - marae
+    - pounamu
+    - te reo
+    - wahine
+    - tamariki
+    - kaimoana
+    - whare
+    - tena koe
+    - whenua
+    - korero
+    - powhiri
+    - taniwha
+    - hongi
+    - morena
+    - tangata whenua
+    - kakariki
+    - puku
+    - karakia
+    - kohanga
+    - kahurangi
+    - hapu
+    - tangata
+    - waiata
+    - taonga
+    - rangatiratanga
+    - tangi
+    - kaumatua
+    - kaupapa
+    - rangatira
+    - tikanga
+    - whero
+    - mokopuna
+    - kainga
+    - maunga
+    - whakarongo
+    - wahi tapu
+    - wananga
+    - kaitiaki
+    - hikoi
+    - papatuanuku
+    - katoa
+    - atua
+    - tupuna
+    - whangai
+    - kuia
+    - korowai
+    - taiaha
+    - mawhero
+    - tohunga
+    - waewae
+    - whaea
+    - teina
+    - hoha
+    - tuakana
+    - manuhiri
+    - kawanatanga
+    - taihoa
+    - kai

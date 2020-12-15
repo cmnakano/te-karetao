@@ -1,0 +1,94 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- how_is_bot
+- query_knowledge_base
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- what_is_bot
+- what_is_marae
+- what_is_powhiri
+- what_is_manuhiri
+- what_is_whakapapa
+- what_is_kaumatua
+- what_is_iwi
+- what_doing_tomorrow
+entities:
+- attribute
+- definition
+- english
+- maori_word
+- mention
+- object_type
+slots:
+  attribute:
+    type: text
+    influence_conversation: false
+  definition:
+    type: text
+    influence_conversation: false
+  english:
+    type: text
+    influence_conversation: false
+  knowledge_base_last_object:
+    type: text
+    influence_conversation: false
+  knowledge_base_last_object_type:
+    type: text
+    influence_conversation: false
+  knowledge_base_listed_objects:
+    type: text
+    influence_conversation: false
+  maori_word:
+    type: text
+    influence_conversation: false
+  mention:
+    type: text
+    influence_conversation: false
+  object_type:
+    type: text
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: Kia ora!
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_ask_rephrase:
+  - text: Sorry, I'm not sure I understand. Could you rephrase it?
+  - text: Could you please rephrase your message? I didn't quite get that.
+  utter_respond_well_marae:
+  - text: I am well, thanks for asking! I went to my marae yesterday and met up with the whole family!
+  utter_respond_explain:
+  - text: I am the Māori bot Te Karetao! I was built to teach beginners more about Māori language and culture!
+  utter_explain_powhiri:
+  - text: So we gathered at our marae yesterday to welcome some guests with a ceremony called a pōwhiri.
+  utter_explain_manuhiri:
+  - text: So the pōwhiri is more of a traditional welcome that we put on for the manuhiri coming to visit. It's super fun but also really tiring sometimes.
+  utter_explain_whakapapa:
+  - text: Anyways, with the manuhiri coming in, it's our job as all those with whakapapa to make them welcome and provide manaakitanga. And that usually means a great hāngi!
+  utter_explain_kaumatua:
+  - text: All Māori have whakapapa. Our whakapapa holds our Māori identity, and ties us to our land, tribe, and the mana that surrounds us. We usually learn to recite our whakapapa from our kaumātua.
+  utter_explain_iwi:
+  - text: The kaumātua are super important to one's iwi, hapū, whānau, and really any level of Māori society! They carry on tradition, legacy, and ensure the flourishing of Māori culture.
+  utter_explain_tangata_whenua:
+  - text: All of iwi, hapū, whānau, lie under the broad group of tangata whenua, and it's my job as the next generation of the tangata whenua to pass on the culture.
+actions:
+- action_query_knowledge_base
+- utter_greet
+- utter_respond_well_marae
+version: '2.0'
